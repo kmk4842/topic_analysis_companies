@@ -1,0 +1,2 @@
+# topic_analysis_companies
+This script processes documents from the Lancaster Financial corpus http://ucrel.lancs.ac.uk/cfie/ (It can be adapted to any other long documents).  1) Split the text into documents, keeping +/- 3 lines around a keyword (eg.change) 2) Pre-process the documents into a corpus with spaCy: lemmatize, remove stop-words, punctuation, NERs 3) Run LDA topical analysis on the documents.  4) Return LDA results, Word Clouds, Examples for each topic.  5) Generate visualizations and figures for publication
